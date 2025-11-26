@@ -95,36 +95,6 @@ CREATE TABLE IF NOT EXISTS log_operacao (
    - Usuário: ``
    - Senha: `root`
 
-## 📂 Estrutura do Projeto
-
-TVMazeCatalogManager/
-├── src/
-│   ├── models/
-│   │   ├── Serie.java
-│   │   ├── Episodio.java
-│   │   ├── Pessoa.java
-│   │   ├── Genero.java
-│   │   └── Participacao.java
-│   ├── database/
-│   │   └── DatabaseConnection.java
-│   ├── dao/
-│   │   ├── SerieDAO.java
-│   │   ├── EpisodioDAO.java
-│   │   ├── PessoaDAO.java
-│   │   └── GeneroDAO.java
-│   ├── api/
-│   │   └── TVMazeAPI.java
-│   ├── utils/
-│   │   ├── QuickSort.java
-│   │   └── HTMLUtils.java
-│   └── main/
-│       └── TVMazeCatalogManager.java
-├── lib/
-│   ├── gson-2.10.1.jar
-│   └── mysql-connector-j-8.0.33.jar
-└── bin/
-    └── [arquivos compilados]
-
 ## 🎯 Funcionalidades
 
 1. **Buscar e Importar Séries** - Busca séries na API TVMaze e importa para o banco
